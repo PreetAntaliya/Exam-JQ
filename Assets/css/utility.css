@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --primary-color: #CED4DA;
+    --secondary-color: #878A99;
+    --bg-color: #051225;
+    --search-bg: #061528CC;
+    --green-color: #40BB82;
+    --green-bg-color: #40BB822E;
+    --red-color: #EE6352;
+    --red-bg-color: #EE63522E;
+    --menu-color: #798694;
+    --list-color: #A4AAC7;
+    --btn-color: #8C68CD;
+    --btn-bg-color: #8C68CD1A;
+    --blue-color: #4788FF;
+    --blue-bg-color: #4788FF1A;
+    --border-color: #2a4562;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --saira: Saira;
+    --fs-11px: 11px;
+    --fs-12px: 12px;
+    --fs-13px: 13px;
+    --fs-14px: 14px;
+    --fs-15px: 15px;
+    --fs-16px: 16px;
+    --fs-17px: 17px;
+    --fs-18px: 18px;
+    --fs-20px: 20px;
+    --fs-22px: 22px;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(--saira);
+    position: relative;
+    height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgba(4, 19, 36, .95);
+}
+
+.main {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-space {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+/* .col-2, */
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+/* .col-8, */
+.col-9,
+/* .col-10, */
+.col-11,
+.col {
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 20px;
+}
+
+.navbar:hover ::-webkit-scrollbar-thumb,
+.card:hover ::-webkit-scrollbar-thumb {
+    background-color: var(--list-color);
+}

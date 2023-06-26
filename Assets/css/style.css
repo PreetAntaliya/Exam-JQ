@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #CED4DA;
+    --secondary-color: #878A99;
+    --bg-color: #051225;
+    --search-bg: #061528CC;
+    --green-color: #40BB82;
+    --green-bg-color: #40BB822E;
+    --red-color: #EE6352;
+    --red-bg-color: #EE63522E;
+    --menu-color: #798694;
+    --list-color: #A4AAC7;
+    --btn-color: #8C68CD;
+    --btn-bg-color: #8C68CD1A;
+    --blue-color: #4788FF;
+    --blue-bg-color: #4788FF1A;
+    --border-color: #2a4562;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --saira: Saira;
+    --fs-11px: 11px;
+    --fs-12px: 12px;
+    --fs-13px: 13px;
+    --fs-14px: 14px;
+    --fs-15px: 15px;
+    --fs-16px: 16px;
+    --fs-17px: 17px;
+    --fs-18px: 18px;
+    --fs-20px: 20px;
+    --fs-22px: 22px;
+}
+
